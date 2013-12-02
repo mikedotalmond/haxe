@@ -33,7 +33,7 @@ extern class AudioNode
 	var numberOfOutputs(default,null) : Int;
 
 	/** Throws DOMException. */
-	@:overload( function( destination : AudioNode, output : Int, input : Int ) :Void {} )
+	@:overload( function( destination : AudioNode, ?output : Int, ?input : Int ) :Void {} )
 	function connect( destination : AudioParam, output : Int ) : Void;
 
 	function disconnect( output : Int ) : Void;

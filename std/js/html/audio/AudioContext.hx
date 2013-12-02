@@ -70,7 +70,7 @@ extern class AudioContext extends js.html.EventTarget
 
 	function createPanner() : PannerNode;
 
-	function createScriptProcessor( bufferSize : Int, ?numberOfInputChannels : Int, ?numberOfOutputChannels : Int ) : ScriptProcessorNode;
+	function createScriptProcessor( ?bufferSize : Int, ?numberOfInputChannels : Int, ?numberOfOutputChannels : Int ) : ScriptProcessorNode;
 
 	function createWaveShaper() : WaveShaperNode;
 
